@@ -24,6 +24,7 @@ body {
     font-family: var(--fuentePrincipal);
     font-size: 1.6rem;
     line-height: 1.5rem;
+    scroll-behavior: smooth;
 }
 
 /* Globales */
@@ -257,6 +258,7 @@ img {
     justify-content: center;
     transition-property: transform background-size;
     transition-duration: 0.3s;
+    cursor: pointer;
 }
 @media (min-width: 995px) {
     .modelo {
@@ -374,6 +376,10 @@ img {
     border-radius: 2rem;
     margin: 1.5rem;
     margin-left: 0;
+    transition: transform;
+}
+.formulario input[type="text"]:hover {
+    transform: scale(1.02);
 }
 .formulario input[type="submit"] {
     width: 100%;
@@ -385,17 +391,31 @@ img {
     font-weight: 900;
     border: none;
     border-radius: 2rem;
+    transition: transform;
+    transition-duration: 0.3s;
+    cursor: pointer;
+}
+.formulario input[type="submit"]:hover {
+    transform: scale(1.05);
 }
 
 /* Footer */
 .footer {
     margin: 2rem;
     line-height: 2.5rem;
+    display: grid;
+    justify-content: center;
 }
-.footer p {
+.footer a {
+    text-decoration: none;
     text-align: center;
     font-family: var(--fuenteSecundaria);  
-    font-size: 2rem;  
+    font-size: 1.5rem; 
+    transition: transform;
+    transition-duration: 0.3s; 
+}
+.footer a:hover {
+    transform: scale(1.05);
 }
 .footer span {
     font-weight: 700;  
