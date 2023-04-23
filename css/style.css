@@ -310,7 +310,7 @@ img {
 /* Newsletter */
 .newsletter {
     background-image: linear-gradient(to bottom, transparent 50%, var(--blanco) 0% ), url(../img/newsletter.jpg);
-    background-position: 0rem, -15rem 0rem;
+    background-position: 0rem, -11rem 0rem;
     background-repeat: no-repeat;
     background-size: 100%, 70rem;
     padding: 5rem 0;
@@ -318,7 +318,7 @@ img {
 @media (min-width: 768px) {
     .newsletter {
         background-image: linear-gradient(to right, transparent 50%, var(--blanco) 0% ), url(../img/newsletter.jpg);
-        background-position: center, -12rem 1rem;
+        background-position: center, -9rem 1rem;
         background-size: 100%, 62rem;
         padding: 10rem 0;
     }
@@ -328,10 +328,10 @@ img {
         background-position: center, -6rem 1rem;
     }
 }
-@media (min-width: 1440px) {
+@media (min-width: 1600px) {
     .newsletter {
-        background-position: center center, 0rem 0rem;
-        background-size: 100%, 70rem;
+        background-position: center center, -1rem -15rem;
+        background-size: 100%, 104rem;
     }
 }
 .contenido-newsletter {
